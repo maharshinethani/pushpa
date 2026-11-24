@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="vb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b5d8c4"/>
+      <stop offset="100%" stop-color="#6aa884"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#vb)"/>
+  <!-- Village skyline silhouette -->
+  <g fill="#3c7355" fill-opacity="0.55" stroke="#2f5a43" stroke-width="1">
+    <!-- distant hills -->
+    <path d="M0 360 Q160 300 320 340 Q480 380 640 320 Q740 290 800 330 L800 500 L0 500 Z" fill="#5d8c84" fill-opacity="0.5" stroke="none"/>
+    <!-- coconut palms -->
+    <g stroke="#2f5a43" stroke-width="2" fill="none">
+      <path d="M120 360 L120 250"/>
+      <path d="M120 250 Q100 236 84 246 M120 250 Q140 236 156 246 M120 250 Q108 230 96 224 M120 250 Q132 230 144 224"/>
+      <path d="M260 340 L260 220"/>
+      <path d="M260 220 Q240 206 224 216 M260 220 Q280 206 296 216 M260 220 Q248 200 236 194 M260 220 Q272 200 284 194"/>
+      <path d="M600 330 L600 230"/>
+      <path d="M600 230 Q580 216 564 226 M600 230 Q620 216 636 226 M600 230 Q588 210 576 204 M600 230 Q612 210 624 204"/>
+    </g>
+    <!-- houses / huts -->
+    <g fill="#7e5a1e" fill-opacity="0.45" stroke="#5c421a" stroke-width="1">
+      <path d="M340 360 L340 300 L380 270 L420 300 L420 360 Z"/>
+      <path d="M380 270 L380 250 L392 244 L404 250 L404 270"/>
+      <path d="M460 360 L460 318 L492 292 L524 318 L524 360 Z" fill-opacity="0.35"/>
+    </g>
+  </g>
+  <!-- Foreground path + flora -->
+  <g stroke="#ffffff" stroke-width="1" fill="none" opacity="0.45">
+    <path d="M320 500 Q400 430 480 500" stroke-width="1.4"/>
+    <path d="M60 480 Q90 452 120 470 Q150 484 170 462"/>
+    <circle cx="120" cy="470" r="5"/>
+    <path d="M640 470 Q660 452 690 466"/>
+    <circle cx="665" cy="460" r="4"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9ebe0"/>
+      <stop offset="100%" stop-color="#8cc0a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <g stroke="#7e5a1e" stroke-width="1.2" fill="none" opacity="0.5" stroke-linecap="round">
+    <!-- Temple shikhara -->
+    <path d="M360 520 L360 280 Q400 180 440 280 L440 520 Z"/>
+    <path d="M372 520 L372 290 Q400 210 428 290 L428 520 Z" opacity="0.6"/>
+    <!-- Kalasha -->
+    <path d="M395 180 Q400 160 405 180 L405 168 L395 168 Z" fill="#c08f2a" fill-opacity="0.5"/>
+    <circle cx="400" cy="160" r="5" fill="#c08f2a" fill-opacity="0.6" stroke="none"/>
+    <!-- Doorway -->
+    <path d="M384 520 L384 360 Q400 340 416 360 L416 520"/>
+    <path d="M392 520 L392 372 L408 372 L408 520" opacity="0.5"/>
+    <!-- Side pillars -->
+    <path d="M300 520 L300 320 Q310 300 320 320 L320 520"/>
+    <path d="M480 520 L480 320 Q490 300 500 320 L500 520"/>
+    <!-- Pillars decoration -->
+    <path d="M300 360 L320 360 M300 400 L320 400 M300 440 L320 440 M300 480 L320 480"/>
+    <path d="M480 360 L500 360 M480 400 L500 400 M480 440 L500 440 M480 480 L500 480"/>
+    <!-- Base steps -->
+    <path d="M260 520 L540 520 L560 540 L240 540 Z" fill="#7e5a1e" fill-opacity="0.06" stroke="none"/>
+    <path d="M260 520 L540 520"/>
+    <path d="M240 540 L560 540"/>
+    <!-- Diyas on steps -->
+    <g fill="#d4a63e" fill-opacity="0.6" stroke="#c08f2a">
+      <path d="M310 520 Q316 514 322 520 L324 528 L308 528 Z"/>
+      <path d="M478 520 Q484 514 490 520 L492 528 L476 528 Z"/>
+    </g>
+    <!-- Flags -->
+    <path d="M300 300 L300 270 L316 278 L300 286 Z" fill="#c08f2a" fill-opacity="0.4"/>
+    <path d="M500 300 L500 270 L484 278 L500 286 Z" fill="#c08f2a" fill-opacity="0.4"/>
+  </g>
+  <!-- Floral foreground -->
+  <g stroke="#ffffff" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M60 560 Q90 530 130 540 Q160 548 180 530"/>
+    <circle cx="120" cy="538" r="6"/>
+    <path d="M620 560 Q650 530 690 540 Q720 548 740 530"/>
+    <circle cx="680" cy="538" r="6"/>
+  </g>
+</svg>

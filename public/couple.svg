@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="cgbg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#ebdfbe"/>
+      <stop offset="100%" stop-color="#b5d8c4"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="50%" r="60%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#244535" stop-opacity="0.35"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#cgbg)"/>
+  <!-- Mandap / arch silhouette -->
+  <g stroke="#7e5a1e" stroke-width="1.2" fill="none" opacity="0.45" stroke-linecap="round">
+    <path d="M150 880 L150 360 Q150 200 400 140 Q650 200 650 360 L650 880"/>
+    <path d="M190 880 L190 372 Q190 232 400 176 Q610 232 610 372 L610 880" opacity="0.6"/>
+    <!-- Arch florals -->
+    <path d="M190 372 Q220 300 300 270 Q360 252 400 250 Q440 252 500 270 Q580 300 610 372" stroke-width="0.9"/>
+    <g stroke-width="0.8">
+      <path d="M230 340 Q226 322 234 314 M270 312 Q266 294 274 286 M320 290 Q318 272 326 266 M380 272 Q380 256 388 250 M430 272 Q430 256 422 250 M490 290 Q492 272 484 266 M540 312 Q544 294 536 286 M580 340 Q584 322 576 314"/>
+    </g>
+    <!-- Hanging strings of jasmine -->
+    <g stroke-width="0.6" opacity="0.5">
+      <path d="M250 250 L250 360 M300 240 L300 360 M350 232 L350 360 M400 228 L400 360 M450 232 L450 360 M500 240 L500 360 M550 250 L550 360"/>
+    </g>
+    <!-- Floor mandap -->
+    <path d="M150 880 L650 880 L650 920 L150 920 Z" fill="#7e5a1e" fill-opacity="0.06" stroke="none"/>
+    <path d="M150 880 L650 880"/>
+  </g>
+  <!-- Couple silhouettes (stylized, dignified) -->
+  <g fill="#3c7355" fill-opacity="0.85" stroke="#5c421a" stroke-width="1.1" stroke-linejoin="round">
+    <!-- Groom (left) -->
+    <g transform="translate(300 540)">
+      <!-- turban -->
+      <path d="M-44 -20 Q-48 -52 -20 -64 Q0 -70 20 -64 Q48 -52 44 -20 Q40 -14 0 -12 Q-40 -14 -44 -20 Z" fill="#5c421a"/>
+      <path d="M-20 -64 Q0 -76 20 -64" fill="none" stroke="#c08f2a" stroke-width="1.4"/>
+      <circle cx="0" cy="-68" r="3" fill="#c08f2a" stroke="none"/>
+      <!-- head -->
+      <ellipse cx="0" cy="6" rx="18" ry="22" fill="#c98e5e" stroke="#5c421a" stroke-width="0.8"/>
+      <!-- body / sherwani -->
+      <path d="M-40 28 Q-52 80 -56 180 L-58 250 L58 250 L56 180 Q52 80 40 28 Q20 18 0 18 Q-20 18 -40 28 Z" fill="#f3ecd6"/>
+      <path d="M0 28 L0 250" stroke="#c08f2a" stroke-width="1.4" fill="none"/>
+      <!-- stole -->
+      <path d="M-30 26 Q0 40 30 26 L34 90 Q0 104 -34 90 Z" fill="#b5d8c4" stroke="#5c421a" stroke-width="0.8"/>
+    </g>
+    <!-- Bride (right) -->
+    <g transform="translate(470 540)">
+      <!-- hair / veil -->
+      <path d="M-40 -10 Q-52 -40 -30 -54 Q0 -64 30 -54 Q52 -40 40 -10 Q44 30 38 60 L-38 60 Q-44 30 -40 -10 Z" fill="#2f2a22"/>
+      <!-- head -->
+      <ellipse cx="0" cy="0" rx="17" ry="21" fill="#c98e5e" stroke="#5c421a" stroke-width="0.8"/>
+      <!-- jewelry dots -->
+      <g fill="#c08f2a" stroke="none"><circle cx="-6" cy="-12" r="1.6"/><circle cx="0" cy="-15" r="1.8"/><circle cx="6" cy="-12" r="1.6"/></g>
+      <!-- body / lehenga -->
+      <path d="M-38 24 Q-50 70 -54 150 Q-66 210 -76 250 L76 250 Q66 210 54 150 Q50 70 38 24 Q20 16 0 16 Q-20 16 -38 24 Z" fill="#6aa884"/>
+      <!-- dupatta -->
+      <path d="M-26 22 Q0 36 26 22 L30 86 Q0 100 -30 86 Z" fill="#ebdfbe" stroke="#5c421a" stroke-width="0.8" opacity="0.9"/>
+      <!-- lehenga gold border -->
+      <path d="M-76 250 L76 250" stroke="#c08f2a" stroke-width="2"/>
+      <path d="M-70 240 L70 240" stroke="#c08f2a" stroke-width="0.8"/>
+    </g>
+  </g>
+  <!-- Garland between -->
+  <g stroke="#c08f2a" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M348 560 Q400 540 422 560"/>
+    <g fill="#e0bb66" stroke="none"><circle cx="360" cy="556" r="3"/><circle cx="378" cy="548" r="3"/><circle cx="398" cy="546" r="3"/><circle cx="412" cy="554" r="3"/></g>
+  </g>
+  <!-- Diyas at feet -->
+  <g stroke="#c08f2a" stroke-width="1" fill="#d4a63e" fill-opacity="0.5">
+    <path d="M300 860 Q308 850 316 860 L320 870 L296 870 Z"/>
+    <path d="M500 860 Q508 850 516 860 L520 870 L496 870 Z"/>
+    <g fill="none" stroke="#e0bb66"><path d="M308 850 Q306 840 310 832"/><path d="M508 850 Q506 840 510 832"/></g>
+  </g>
+  <rect width="800" height="1000" fill="url(#vig)"/>
+</svg>
